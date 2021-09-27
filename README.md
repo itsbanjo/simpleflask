@@ -11,6 +11,6 @@ Just perform the following:
 ```
 oc new-project simpleflask
 oc new-app python~https://github.com/itsbanjo/simpleflask
-oc expose svc/simplefask
+oc expose svc/simplefask --hostname simpleflask.apps.uat.ocp4.openshift.integrate.zone
 oc get route
 ```
